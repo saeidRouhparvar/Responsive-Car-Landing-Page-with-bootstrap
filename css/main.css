@@ -1,7 +1,133 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
-.text-brown {
-    color: #A55C30;
+body {
+  max-width: 1440px;
+  font-size: 16px !important;
+}
+@import url("https://fonts.cdnfonts.com/css/lora");
+
+.lora {
+  font-family: "Lora";
+}
+.text-brown
+ {
+  color: #a55c30;
+}
+.bg-brown {
+  background-color: #a55c30;
+}
+
+.section-margin {
+  margin-top: 100px;
+}
+
+.fs-56 {
+  font-size: 56px;
+}
+.fs-72 {
+  font-size: 72px;
+}
+.about-img,
+.about-desc {
+  width: 50%;
+}
+.banner h1 {
+  font-size: 64px;
+  line-height: 82px;
+}
+.back-line {
+  width: 9px;
+  height: 261px;
+  background: #f8d7a4;
+}
+.service {
+  height: 755px;
+  background: url("../img/service-banner.png");
+  background-size: cover;
+}
+.service .head-title {
+  top: 90px;
+}
+.service .card-body i,
+.fleet i,
+.star-icon i {
+  font-size: 80px;
+  color: #f8d7a4;
+}
+.fleet .card {
+  box-shadow: 4px 10px 30px rgba(0, 0, 0, 0.1);
+}
+.testi {
+  height: 306px;
+  background: rgba(35, 34, 34, 0.96);
+  background-blend-mode: multiply;
+}
+.testimain {
+  background: #F8D7A4;
+}
+.testi-footer {
+  height: 306px;
+  background: url("../img/testi-footer.png");
+  background-size: cover;
+}
+@media screen and (max-width: 768px) {
+  .navbar-nav {
+    text-align: center;
+  }
+  .banner-title h1 {
+    font-size: 32px;
+  }
+  .about {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+  }
+  .about-img,
+  .about-desc {
+    width: 100% !important;
+  }
+  .service {
+    height: 1700px;
+  }
+  .fleet .card {
+    margin-bottom: 10px !important;
+  }
+  .testi {
+    height: 545px;
+  }
+  .testi .counts {
+    padding: 40px;
+  }
+  .testi .counts h1 {
+    font-size: 48px;
+  }
+  .testi .counts h4 {
+    font-size: 16px;
+  }
+  .testi-content {
+    flex-direction: column;
+  }
+  .testi-footer{
+    height: 270px;
+    
+  }
+  .testi-footer h2{
+    font-size: 20px;
+    padding-bottom: 10px;
+ }
+  .testi-footer h1{
+    font-size: 32px;
+    
+ }
+  .cantact-form {
+    padding:20px !important;
+  }
+  .footer {
+    flex-direction: column;
+    align-items: center;
+  }
 }

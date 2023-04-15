@@ -5,47 +5,474 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bootstrap Project</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/main.css" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css"
+    />
   </head>
   <body>
- 
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary bg-light fixed-top">
       <div class="container">
-        <a class="navbar-brand" href="#"><img src="img/logo.png" alt=""></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <a class="navbar-brand" href="#"><img src="img/logo.png" alt="" /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fw-bold">
             <li class="nav-item">
-              <a class="nav-link text-brown ms-3" aria-current="page" href="#home">Home</a>
+              <a class="nav-link text-brown ms-3" href="#home">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link  ms-3" aria-current="page" href="#about">About</a>
+              <a class="nav-link ms-3" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link  ms-3" aria-current="page" href="#services">Services</a>
+              <a class="nav-link ms-3" href="#services">Services</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link  ms-3" aria-current="page" href="#fleet">Fleet</a>
+              <a class="nav-link ms-3" href="#fleet">Fleet</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link  ms-3" aria-current="page" href="#contactus">Contact us</a>
+              <a class="nav-link ms-3" href="#contactus">Contact us</a>
             </li>
-            
-           
-           
           </ul>
-         
         </div>
       </div>
     </nav>
 
+    <!-- Banner -->
 
+    <section id="banner" class="banner mt-5">
+      <div class="d-flex justify-content-between">
+        <div class="banner-title m-5 d-flex ps-4 pt-5">
+          <span class="back-line mt-5"></span>
+          <h1 class="text-dark lora fw-bold ms-4 fw-bold mt-4">
+            Premium <br />
+            and Luxurious <br />
+            chauffeur Services
+          </h1>
+        </div>
+        <div class="banner-img mt-5">
+          <img
+            src="img/mainBanner.png"
+            alt=""
+            class="w-100 d-none d-sm-block"
+          />
+          <!-- <img src="img/mainBannerRes.png" alt="" class="w-100 d-none d-sm-block d-md-none" /> -->
+        </div>
+        <div class="row"></div>
+      </div>
+    </section>
 
+    <!-- About -->
 
-    <script src="js/bootstrap.bundle.min.js"></script>
+    <sectin id="about" class="about section-margin d-flex">
+      <div class="about-img">
+        <img src="img/about-banner.png" alt="" class="w-100" />
+      </div>
+      <div class="about-desc mx-5 mt-3 px-3">
+        <h1 class="lora fw-bold text-brown mb-4">About</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint,
+          sapiente!
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur
+          ipsam officia eaque commodi illum nihil nemo eos similique repellat.
+          Totam dicta maxime fugit unde earum temporibus alias doloremque
+          ratione, veniam voluptates omnis. Mollitia pariatur libero nam
+          praesentium itaque vel error, veritatis labore repudiandae vero
+          accusantium at quia! Rerum, culpa blanditiis?
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum totam
+          dicta facilis assumenda quia magnam dolor accusantium, earum sit
+          aspernatur!
+        </p>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro
+          deleniti repudiandae error, facilis ipsum accusamus?
+        </p>
+      </div>
+    </sectin>
+
+    <!-- Services -->
+
+    <section id="services" class="service section-margin">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="header-title m-5 p-5">
+              <h1 class="lora fs-56 text-brown fw-bold text-center">
+                Services
+              </h1>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-12 col-md-12 col-lg-4">
+            <div class="card-body text-light">
+              <i class="bi bi-star d-flex justify-content-center"></i>
+              <h3 class="mt-5">Lorem ipsum dolor sit amet.</h3>
+              <p class="mt-4">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod
+                quidem reiciendis dolores placeat sunt laboriosam provident
+                magni molestiae ut eos.
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis
+                quia odit sint voluptatibus cum, tempore laborum, quo libero
+                dolor blanditiis illum sequi magni veniam doloribus numquam?
+                Illum veniam voluptatibus perspiciatis veniam !
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-md-12 col-lg-4">
+            <div class="card-body text-light">
+              <i class="bi bi-person-square d-flex justify-content-center"></i>
+              <h3 class="mt-5">Lorem ipsum dolor sit amet.</h3>
+              <p class="mt-4">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod
+                quidem reiciendis dolores placeat sunt laboriosam provident
+                magni molestiae ut eos.
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis
+                quia odit sint voluptatibus cum, tempore laborum, quo libero
+                dolor blanditiis illum sequi magni veniam doloribus numquam?
+                Illum veniam voluptatibus perspiciatis veniam !
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-md-12 col-lg-4">
+            <div class="card-body text-light">
+              <i class="bi bi-gem d-flex justify-content-center"></i>
+              <h3 class="mt-5">Lorem ipsum dolor sit amet.</h3>
+              <p class="mt-4">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod
+                quidem reiciendis dolores placeat sunt laboriosam provident
+                magni molestiae ut eos.
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis
+                quia odit sint voluptatibus cum, tempore laborum, quo libero
+                dolor blanditiis illum sequi magni veniam doloribus numquam?
+                Illum veniam voluptatibus perspiciatis veniam !
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Fleet -->
+    <section id="fleet" class="fleet section-margin">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="header-title m-5 p-5">
+              <h1 class="lora fs-56 text-brown fw-bold text-center">Fleet</h1>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 col-md-12 col-lg-4">
+            <div class="card bg-light pb-2">
+              <div class="card-body text-dark pb-2">
+                <div class="img-card mb-5">
+                  <img
+                    src="img/fleetCard1.png"
+                    alt=""
+                    class="img-fluid rounded"
+                  />
+                </div>
+                <h2 class="text-brown text-center">FIRST CLASS</h2>
+                <p class="text-center">mMercedes maybach s600</p>
+                <p class="text-justify">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Adipisci iure natus impedit totam, exercitationem ut dolores
+                  harum ab minima pariatur.
+                </p>
+                <div class="card-icon mt-4 d-flex justify-content-between">
+                  <div class="user d-flex">
+                    <i class="bi bi-people-fill fs-3 mt-1"></i>
+                    <p class="m-3">4 Seats</p>
+                  </div>
+                  <div class="bag d-flex">
+                    <i class="bi bi-bag-fill fs-3 mt-1"></i>
+                    <p class="m-3">2 Luggage</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-12 col-lg-4">
+            <div class="card bg-light pb-2">
+              <div class="card-body text-dark pb-2">
+                <div class="img-card mb-5">
+                  <img
+                    src="img/fleetCard2.png"
+                    alt=""
+                    class="img-fluid rounded"
+                  />
+                </div>
+                <h2 class="text-brown text-center">BUSINESS CLASS</h2>
+                <p class="text-center">mMercedes G - wagen</p>
+                <p class="text-justify">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Adipisci iure natus impedit totam, exercitationem ut dolores
+                  harum ab minima pariatur.
+                </p>
+                <div class="card-icon mt-4 d-flex justify-content-between">
+                  <div class="user d-flex">
+                    <i class="bi bi-people-fill fs-3 mt-1"></i>
+                    <p class="m-3">4 Seats</p>
+                  </div>
+                  <div class="bag d-flex">
+                    <i class="bi bi-bag-fill fs-3 mt-1"></i>
+                    <p class="m-3">2 Luggage</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-12 col-lg-4">
+            <div class="card bg-light pb-2">
+              <div class="card-body text-dark pb-2">
+                <div class="img-card mb-5">
+                  <img
+                    src="img/fleetCard3.png"
+                    alt=""
+                    class="img-fluid rounded"
+                  />
+                </div>
+                <h2 class="text-brown text-center">SUV</h2>
+                <p class="text-center">mMercedes M class</p>
+                <p class="text-justify">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Adipisci iure natus impedit totam, exercitationem ut dolores
+                  harum ab minima pariatur.
+                </p>
+                <div class="card-icon mt-4 d-flex justify-content-between">
+                  <div class="user d-flex">
+                    <i class="bi bi-people-fill fs-3 mt-1"></i>
+                    <p class="m-3">4 Seats</p>
+                  </div>
+                  <div class="bag d-flex">
+                    <i class="bi bi-bag-fill fs-3 mt-1"></i>
+                    <p class="m-3">2 Luggage</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TestiMonials -->
+    <section
+      id="testi"
+      class="section testi section-margin d-flex align-items-center"
+    >
+      <div class="container">
+        <div class="row">
+          <div class="counts col-12 col-md-12 col-lg-4 text-light text-center">
+            <div class="count">
+              <h1 class="fs-72">70</h1>
+            </div>
+            <div class="testi-title">
+              <h4>VEHICLES</h4>
+            </div>
+          </div>
+          <div class="counts col-12 col-md-12 col-lg-4 text-light text-center">
+            <div class="count">
+              <h1 class="fs-72">576</h1>
+            </div>
+            <div class="testi-title">
+              <h4>TRIPS DONE</h4>
+            </div>
+          </div>
+          <div class="counts col-12 col-md-12 col-lg-4 text-light text-center">
+            <div class="count">
+              <h1 class="fs-72">321</h1>
+            </div>
+            <div class="testi-title">
+              <h4>EVENTS</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="testimain pb-5">
+      <div class="row section-margin">
+        <div class="col-12 text-center">
+          <h1 class="text-brown fw-bold fs-56 section-margin">Testimonials</h1>
+        </div>
+      </div>
+
+      <div class="Testimonials mt-5">
+        <div
+          class="row text-center d-flex justify-content-center align-items-center"
+        >
+          <div
+            class="testi-content col-12 col-md-12 col-lg-6 bg-light d-flex px-5 w-75"
+          >
+            <div class="testi-profile mt-5">
+              <img
+                src="img/jeff.jpg"
+                alt=""
+                class="img-fluid w-75 rounded-circle"
+              />
+
+              <p>Jeff Bezos</p>
+            </div>
+            <div class="testi-desc p-5">
+              <p class="fs-4">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptatem doloribus fugiat aut obcaecati odit perferendis
+                dolorum consequatur eius non ad excepturi quod iste, enim
+                maiores minima, asperiores quia autem doloremque illo! Fugit
+                mollitia quas sequi!
+              </p>
+              <div class="star-icon mt-4">
+                <i class="bi bi-star-fill fs-1"></i>
+                <i class="bi bi-star-fill fs-1"></i>
+                <i class="bi bi-star-fill fs-1"></i>
+                <i class="bi bi-star-fill fs-1"></i>
+                <i class="bi bi-star-fill fs-1"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="testi-footer">
+      <div class="testi-footer-banner pt-5">
+        <div class="testi-footer-desc text-center text-light pt-5">
+          <h2>We offer the best you can imagine</h2>
+          <h1 class="fs-56">Call Now for booking 01477 678905</h1>
+        </div>
+      </div>
+    </div>
+    <!-- Cantact Form -->
+    <section id="contactus" class="contact section-margin">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="header-title m-5 p-5">
+            <h1 class="lora fs-56 text-brown fw-bold text-center">Contact</h1>
+          </div>
+        </div>
+      </div>
+      <div class="row cantact-form">
+        <div class="col-12 col-md-12 col-lg-6 m-auto bg-secondary py-5">
+          <input
+            type="text"
+            class="form-control mb-4"
+            placeholder="Your Name"
+          />
+          <input type="email" class="form-control mb-4" placeholder="Email" />
+          <input
+            type="text"
+            class="form-control mb-4"
+            placeholder="Type of Car"
+          />
+          <textarea class="form-control mb-4" rows="5"></textarea>
+          <div
+            class="form-btn pt-4 d-flex align-items-center justify-content-center"
+          >
+            <button class="btn btn-dark px-5">SEND</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+
+    <footer
+      id="footer"
+      class="footer section-margin d-flex justify-content-around bg-dark text-light p-5"
+    >
+      <div class="footer-desc mb-5">
+        <img src="img/logo.png" alt="" class="mb-5" />
+        <p class="text-break">
+          Lorem, ipsum dolor sit amet consectetur <br />
+          adipisicing elit. Temporibus sunt, quo qui
+        </p>
+        <p>
+          voluptatem reiciendis harum doloribus, <br />
+          necessitatibus dolores a exercitationem <br />
+          minima animi rem debitis culpa quia <br />
+          accusantium ea, mollitia fuga.
+        </p>
+      </div>
+      <div class="footer-newsletter mb-5 text-center">
+        <h3 class="text-brown mb-4">News Letter</h3>
+        <p>
+          Lorem ipsum dolor sit amet <br />
+          consectetur adipisicing elit.
+        </p>
+        <form action="#" class="d-flex">
+          <input class="bg-light py-2" type="text" />
+          <button class="btn ms-3 px-3 bg-warning text-light border-0">
+            Subscribe
+          </button>
+        </form>
+        <div class="social-icon mt-5 fs-4">
+          <i class="bi bi-facebook p-3"></i>
+          <i class="bi bi-twitter p-3"></i>
+          <i class="bi bi-instagram p-3"></i>
+        </div>
+      </div>
+
+      <div class="footer-contact mb-5 text-center">
+        <h3 class="text-brown">Contact</h3>
+        <div class="footer-contact-content text-light d-flex flex-column">
+          <div class="location d-flex">
+            <i class="bi bi-geo-alt-fill mt-2 me-4 fs-4"></i>
+            <p>
+              2038 2nd Avenue, <br />
+              Las Vegas, United State
+            </p>
+          </div>
+          <div class="phone d-flex">
+            <i class="bi bi-telephone-fill mt-2 me-4 fs-4"></i>
+            <div class="num">
+              <p>01477342123</p>
+              <p>01477678905</p>
+            </div>
+          </div>
+          <div class="email d-flex">
+            <i class="bi bi-envelope-at me-4 fs-4"></i>
+            <p class="mt-1">info@luxchauffeur.com</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div class="bg-dark text-center border-top "  >
+      <p class="text-white p-3">All Right Reserved by Saeid Rouhparvar</p>
+      <p class="text-white">saeid.rohparvar@gmail.com</p>
+  </div>
+
+    <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>

@@ -32,6 +32,13 @@ body {
 .about-img,
 .about-desc {
   width: 50%;
+ 
+}
+.banner-img {
+  height: 755px;
+  width: 730px;
+  background: url("../img/mainBanner.png");
+  background-size: cover;
 }
 .banner h1 {
   font-size: 64px;
@@ -78,6 +85,7 @@ body {
   }
   .banner-title h1 {
     font-size: 32px;
+    line-height: 41px;
   }
   .about {
     flex-direction: column;
